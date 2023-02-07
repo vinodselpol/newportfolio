@@ -27,12 +27,12 @@ export default function Share(props: ShareProps): React.ReactElement {
         <TwitterShareButton title={title} url={url}>
           <TwitterIcon size={22} color={Colors.twitter} />
         </TwitterShareButton>
-        <RedditShareButton title={title} url={url}>
+        {/* <RedditShareButton title={title} url={url}>
           <RedditIcon size={22} color={Colors.reddit} />
-        </RedditShareButton>
-        <FacebookShareButton title={title} url={url}>
+        </RedditShareButton> */}
+        {/* <FacebookShareButton title={title} url={url}>
           <FacebookIcon size={22} color={Colors.facebook} />
-        </FacebookShareButton>
+        </FacebookShareButton> */}
         <LinkedinShareButton title={title} url={url}>
           <LinkedinIcon size={22} color={Colors.linkedin} />
         </LinkedinShareButton>

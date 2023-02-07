@@ -15,15 +15,15 @@ export interface Contact {
 }
 
 export const contact: Contact = {
-  twitter: '@karan_6864',
-  site: 'karanpratapsingh.com',
+  twitter: '@VinodSelpol',
+  site: 'https://portfolio-vinodselpol.vercel.app/',
   calendly: 'https://calendly.com/vinodselpol',
   links: {
     github: 'https://github.com/vinodselpol',
     linkedin: 'https://www.linkedin.com/in/vinod-krishna1/',
     twitter: 'https://twitter.com/VinodSelpol',
-    youtube: 'https://www.youtube.com/c/KaranPratapSingh',
+    youtube: '',
     email: 'mailto:vinodselpol@gmail.com',
-    buymeacoffee: 'https://www.buymeacoffee.com/karanps',
+    buymeacoffee: '',
   },
 };
