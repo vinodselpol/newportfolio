@@ -76,7 +76,7 @@ export default function ListLayout({
             const { slug, date, title, summary, tags } = frontMatter;
             return (
               <li key={slug} className='py-4'>
-                <article className='space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0'>
+                <article className='space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0 hover:scale-105 transform transition duration-300 ease-out '>
                   <dl>
                     <dt className='sr-only'>Published on</dt>
                     <dd className='text-base font-medium leading-6 text-gray-500 dark:text-gray-400'>

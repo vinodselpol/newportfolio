@@ -13,7 +13,7 @@ function Card({ title, description, banner, href }): React.ReactElement {
   );
 
   return (
-    <div className='md p-4 md:w-1/2' style={{ maxWidth: '544px' }}>
+    <div className='md p-4 md:w-1/2 hover:scale-105 transform transition duration-300 ease-out' style={{ maxWidth: '544px' }}>
       <div
         className={`${
           banner && 'h-full'

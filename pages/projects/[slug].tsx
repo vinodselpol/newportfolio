@@ -62,17 +62,23 @@ export default function Project({
 
       return (
         <div
-          className='mr-2 flex-shrink-0 overflow-hidden rounded bg-placeholder-light dark:bg-placeholder-dark'
+          className='mr-8 flex-shrink-0 overflow-hidden rounded bg-placeholder-light dark:bg-placeholder-dark cursor-pointer hover:scale-105 transform transition duration-300 ease-out'
           style={style}
         >
+          <div className='relative'>
           <Image
             loading='eager'
             src={screenshot}
             height={height}
             width={width}
             objectFit='cover'
+            
             alt=''
+            className='rounded-xl'
           />
+
+          </div>
+          
         </div>
       );
     },
@@ -119,8 +125,8 @@ export default function Project({
       <Conditional condition={hasScreenshots}>
         <H2 className='my-4'>Screenshots</H2>
         <ScrollContainer
-          className='list mt-4 mb-1 flex overflow-auto'
-          hideScrollbars={false}
+          className='list mt-4 mb-1 flex overflow-auto cursor-pointer p-3'
+          hideScrollbars={true}
         >
           {React.Children.toArray(screenshots.map(renderScreenShotList))}
         </ScrollContainer>
