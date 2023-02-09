@@ -24,7 +24,7 @@ export enum Stack {
   gcp,
 
   // Messaging
-  nats,
+  // nats,
   // kafka,
 
   // Databases
@@ -56,7 +56,7 @@ export const WorkStack = [
   // Stack.kubernetes,
   // Stack.docker,
   // Stack.terraform,
-  Stack.nats,
+  // Stack.nats,
   // Stack.kafka,
   // Stack.graphql,
   Stack.postgres,
@@ -124,10 +124,10 @@ export const StackInfo: Record<Stack, StackInfoMap> = {
   //   value: 'Django',
   //   color: Colors.django,
   // },
-  [Stack.nats]: {
-    value: 'NATS',
-    color: Colors.nats,
-  },
+  // [Stack.nats]: {
+  //   value: 'NATS',
+  //   color: Colors.nats,
+  // },
   // [Stack.kafka]: {
   //   value: 'Kafka',
   //   color: Colors.kafka,
