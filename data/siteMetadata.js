@@ -11,7 +11,7 @@ const siteMetadata = {
   siteLogo: '/static/images/logo.png',
   image: '/static/avatar.jpg',
   socialBanner: '/static/banner.png',
-  email: 'contact@karanpratapsingh.com',
+  email: 'vinodselpol@gmail.com',
   github: 'https://github.com/vinodselpol',
   twitter: 'https://twitter.com/VinodSelpol',
   facebook: 'https://facebook.com',
