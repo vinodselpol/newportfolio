@@ -4,7 +4,7 @@ shortname: Vinod
 avatar: /static/vinod.jpg
 occupation: Software Engineer
 company: Graduate Student
-resume: /static/Vinod_Krishna_Resume.pdf
+resume: /static/vinodResume.pdf
 email: vinodselpol@gmail.com
 twitter: https://twitter.com/VinodSelpol
 linkedin: https://www.linkedin.com/in/vinod-krishna1/
